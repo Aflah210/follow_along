@@ -13,7 +13,7 @@ export default function Profile() {
 	const navigate = useNavigate();
 	useEffect(() => {
 		fetch(
-			`http://localhost:8000/api/v2/user/profile?email=${"ayan10092018@gmail.com"}`,
+			`http://localhost:8000/api/v2/user/profile?email=${"whymynameisaflah@gmail.com"}`,
 			{
 				method: "GET",
 				headers: {

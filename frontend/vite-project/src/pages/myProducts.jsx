@@ -6,7 +6,7 @@ export default function MyProducts() {
     const [products, setProducts] = useState([]);
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState(null);
-    const email = "ayan10092018@gmail.com"
+    const email = "whymynameisaflah@gmail.com"
 
     useEffect(() => {
         fetch(`http://localhost:8000/api/v2/product/my-products?email=${email}`)

@@ -11,7 +11,7 @@ export default function ProductDetails() {
 	const [loading, setLoading] = useState(true);
 	const [error, setError] = useState(null);
 	const [quantity, setQuantity] = useState(1); // 1. Initialize quantity state
-	const email = "ayan10092018@gmail.com";
+	const email = "whymynameisaflah@gmail.com";
 	useEffect(() => {
 		const fetchProduct = async () => {
 			try {
